@@ -88,7 +88,8 @@ async function cardSingle () {
       duration: 1000,
       canskip: false,
     });
-
+    
+  //display card name gained
   ac.var.wordOutput = ''.concat('恭喜获得',CardName[ac.var.result]);
     await ac.createStyle({
       name: 'style5',
